@@ -34,7 +34,7 @@ const Nav = () => {
         </a>
       </div>
 
-      <header className="padding-x py-8 absolute z-10 w-full">
+      <header className="padding-x py-1  sm:py-2 md:py-3 lg:py-6 absolute z-10 w-full">
         <nav className="flex justify-between items-center max-container">
           <a href="/">
             <img src={nikelogo} alt="logo" width={84} height={30} />

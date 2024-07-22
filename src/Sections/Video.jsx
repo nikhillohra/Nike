@@ -16,15 +16,15 @@ const Video = () => {
         className="xl:w-full h-full flex justify-center
      outline-none items-center flex-col pt-20 px-8  "
       >
-        <h1 className="pt-14  pb-0 text-[20px] now font-[500] ">
+        <h1 className="pt-14 pb-3 sm:pb-4 md:pb-5 lg:pb-0  text-[20px] now font-[500] ">
           New Arrivals
         </h1>
         <VideoPlayer videoSrc={videoSrc} posterSrc={posterSrc} />
       </div>
       <div className="xl:w-full h-full flex justify-center items-center flex-col">
-        <p1 className="p-0 pt-2 pb-7 leading-3 ">Feel the Unreal</p1>
-        <h2 className="p-0 mb-4 leading-8">AIR MAX DN</h2>
-        <h3 className="mt-10 mb-14">
+        <p1 className="p-0 pt-6  pb-7 leading-3 ">Feel the Unreal</p1>
+        <h2 className="p-0 mb-4 leading-8 text-[50px]">AIR MAX DN</h2>
+        <h3 className="mt-10 mb-14 text-center">
           The next generation of Air technology is here.
         </h3>
         <a
