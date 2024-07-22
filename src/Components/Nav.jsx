@@ -62,7 +62,7 @@ const Nav = () => {
           </div>
 
           <div className="max-lg:hidden  text-center">
-            <ul className="flex gap-14 font-[500]">
+            <ul className="flex gap-10 font-[500]">
               {navLinks.map((item) => (
                 <li key={item.label}>
                   <a
